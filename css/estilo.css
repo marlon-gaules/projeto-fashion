@@ -76,6 +76,59 @@ body {
     }
 }
 
+@media screen and (max-width: 360px) {
+    .topo img {
+        position: absolute;
+        right: 230px;
+    }
+
+    .modelofashion {
+        background-position-x: -140px;
+    }
+
+    .topo.responsivo nav ul li {
+        display: block;
+        margin: 0px;
+        padding: 11px;
+    }
+
+    .topo nav {
+        position: relative;
+    }
+
+    .topo.responsivo nav ul {
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    .topo .icone {
+        float: right;
+    }
+
+    .topo.responsivo nav ul li a {
+        color: white;
+    }
+
+    .gallery .gallery-card img {
+        position: relative;
+        right: 45px;
+    }
+
+    .about h2 {
+        position: absolute;
+        left: 50px;
+        margin-top: 0px;
+    }
+
+    .about p {
+        margin-top: 400px;
+    }
+
+    .about {
+        position: relative;
+    }
+}
+
 .modelofashion {
     background-image: url(/imagens/topo.jpg);
     width: 100%;
